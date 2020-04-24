@@ -1,0 +1,43 @@
+
+<!--<div class="content-table">
+   <!-<div class="panel-heading">-->
+    <!--<body background="assets/images/image.jpg">-->
+      <h2 style="text-align: center;color: dodgerblue;font-family: sans-serif;text-decoration: underline;">Product List</h2>
+   <!-- </div>-->
+    <!--<div class="panel-body">-->
+      
+      <table class="content-table">
+        <thead>
+          <tr>
+            <th>Product Id</th>
+            <th>Product Name</th>
+            <th>Brand</th>
+            <th>Make In</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of products | async">
+            <td>{{ product.id }}</td>
+            <td>{{ product.name }}</td>
+            <td>{{ product.brand }}</td>
+            <td>{{ product.madein }}</td>
+            <td>{{ product.price }}</td>
+            <td>{{ product.quantity }}</td>
+          <td>
+           
+              <button (click)="editProduct(product.id)" class="update" style="margin-left: 10px">Update</button>
+              <button (click)="deleteProduct(product.id)" class="delete"style="margin-left: 10px">Delete</button>
+              <button (click)="productDetails(product.id)" class="details" style="margin-left: 10px">Details</button>
+               
+            </td>
+        
+          </tr>
+        </tbody>
+      </table>
+    
+   <!-- </div>-->
+  
+

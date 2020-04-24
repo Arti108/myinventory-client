@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "myinventory-client"
+    }
+  },
+  "defaultProject": "myinventory-client",
+  "cli": {
+    "analytics": false
+  }
 }

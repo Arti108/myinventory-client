@@ -1,0 +1,46 @@
+
+
+.form-box input[type="text"], input[type="text"]{
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.form-control{
+    text-align:right;
+    padding-right:20px;
+    display:inline-block;
+    min-width:150px;
+}
+
+.form-box input[type="submit"]
+{
+    align-self: center;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    background: cornsilk;
+    color:crimson;
+    font-size: 18px;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-left: 20%;
+    padding: 5px;
+    
+}
+
+.form-group{
+padding: 15px;
+color: crimson;
+font-size: 15px;
+font-family: sans-serif;
+font-weight: bold;
+
+
+}

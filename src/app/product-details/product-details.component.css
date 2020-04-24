@@ -1,0 +1,20 @@
+.main{
+    color: wheat;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-decoration: underline;
+    
+}
+
+.button{
+    background: yellowgreen;
+    color: teal;
+    height: 30px;
+    width: 450px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 30%;
+}

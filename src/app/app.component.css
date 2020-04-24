@@ -1,0 +1,96 @@
+.footer {
+    height:35px; 
+    width: 100%; 
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+    background-color: rgb(230, 201, 191);
+    }
+
+    .footer-cont{
+        color:black;
+        height:24px; 
+    width: 1000px; 
+    margin:auto;
+    font-weight: bold;
+
+    }
+    .mybody{
+        height:40em;
+        background-size:cover; 
+        
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/assets/images/back2.jpg');
+        background-position:50% 50%;
+        
+        background-size: cover;
+    
+    height: 150vh;
+    
+    background-position: center;
+        
+        }
+
+        .menu{
+            float: right;
+            list-style-type: none;
+            margin: 20px;
+
+        }
+
+        .menu li{
+            display: inline-block;
+            margin: 10px 5px;
+        }
+        .menu li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 10px;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+            border-bottom: 1px solid #fff;
+            border-radius: 1px;
+        }
+
+        .menu li a:hover{
+            background: coral;
+            border-bottom: 1px solid;
+            transition: .4s;
+            border-radius: 5px;
+        }
+
+        .msg{
+            position: relative;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: cornsilk;
+            top:200px;
+        }
+
+
+        .msg h3{
+            font-size: 35px;
+            color: darkkhakis;
+            text-align: center;
+            top: 100px;
+            
+        }
+     h2{
+            text-align: center; 
+            color: lightgreen;
+            font-size: 35px;
+        
+        
+        }
+
+
+        .logo{
+            float: left;
+            height: 73px;
+            width: 200px;
+            margin-top: 35px;
+            margin-left: 20px;
+        }
